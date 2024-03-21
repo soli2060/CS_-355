@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+  margin: 0;
+  padding: 0;
+  background-color: #87CEEB; /* Sky blue color */
+  color: #333;
+}
+
+.container {
+  width: 80%; /* Adjust container width */
+  margin: 50px auto;
+  padding: 40px; /* Increase padding */
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px; /* Increase margin */
+  font-size: 36px; /* Larger font size for heading */
+  color: #007bff; /* Dark blue color */
+}
+
+input[type="text"] {
+  width: calc(100% - 40px);
+  padding: 16px; /* Increase padding */
+  margin-bottom: 40px; /* Increase margin */
+  border: 2px solid #ccc; /* Increase border thickness */
+  border-radius: 25px;
+  font-size: 20px; /* Larger font size for input */
+}
+
+#breedSuggestions {
+  margin-bottom: 40px; /* Increase margin */
+  text-align: left;
+}
+
+.suggestion {
+  padding: 14px 20px; /* Adjust padding */
+  cursor: pointer;
+  font-size: 20px; /* Larger font size for suggestions */
+}
+
+.suggestion:hover {
+  background-color: #e0f0ff; /* Light blue color on hover */
+}
+
+button {
+  padding: 18px 32px; /* Increase padding */
+  background-color: #007bff; /* Dark blue color */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 24px; /* Larger font size for buttons */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+#imageContainer {
+  margin-top: 40px; /* Increase margin */
+}
+
+img {
+  width: 100%; /* Ensure images fill the container width */
+  max-height: 400px; /* Set maximum height for images */
+  object-fit: contain; /* Ensure entire image fits within container */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
